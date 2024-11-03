@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS Grid With Image Span</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div class="loading">
+    <span class="loader"></span>
+  </div>
+  <!-- Start Content  -->
+  <div id="container-view" class="container">
+    <button class="refresh fas fa-redo-alt"></button>
+    <div class="bg1">
+      <h2 id="country-name"></h2>
+      <p id="city-name">Goals Completed</p>
+    </div>
+    <div class="bg1">
+      <h2 id="temperature"> &deg;</h2>
+      <p>Temperature</p>
+    </div>
+
+    <div class="bg2">
+      <h2 id="wind-speed"></h2>
+      <p>Wind Speed</p>
+    </div>
+    <div class="bg1">
+      <h2 id="humidity"></h2>
+      <p>Humidity</p>
+    </div>
+    <div class="bg1">
+      <h2 id="gust"></h2>
+      <p>Gusts</p>
+    </div>
+
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
