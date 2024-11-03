@@ -1,7 +1,7 @@
 // تعريف ثابت لمفتاح API
 const API_KEY = 'YOUR_API_KEY'; // استبدل YOUR_API_KEY بمفتاح API الخاص بك
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
-const MAIN_API_KEY = "75388a768e34e5ab1a1abfa075bebc9c"
+const MAIN_API_KEY = ""
 
 // جلب جميع عناصر html 
 let city_name = document.querySelector('#city-name');
